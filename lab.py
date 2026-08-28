@@ -47,12 +47,12 @@ from sklearn.metrics import mean_absolute_error
 # ============================================================
 
 LOTO_CSV = Path(
-    "/Users/4c/Desktop/GHQ/data/"
+    "/data/"
     "loto7_4674_k68_loto_2959.csv"
 )
 
 LOTO_PLUS_CSV = Path(
-    "/Users/4c/Desktop/GHQ/data/"
+    "/data/"
     "loto7_4674_k68_loto_plus_1715.csv"
 )
 
@@ -2261,7 +2261,7 @@ Ukupno mogućih kombinacija: 15,380,937
 ========================================================================
 Obrada: Loto
 ========================================================================
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4674_k68_loto_2959.csv
+CSV: /data/loto7_4674_k68_loto_2959.csv
 Broj redova: 2959
 Prvi red se tretira kao najstariji.
 Poslednji red se tretira kao najnoviji.
@@ -2295,7 +2295,7 @@ Paketni pregled svih 15,380,937 kombinacija...
 ========================================================================
 Obrada: Loto Plus
 ========================================================================
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4674_k68_loto_plus_1715.csv
+CSV: /data/loto7_4674_k68_loto_plus_1715.csv
 Broj redova: 1715
 Prvi red se tretira kao najstariji.
 Poslednji red se tretira kao najnoviji.
@@ -2332,7 +2332,7 @@ KONAČNE NEXT PREDIKCIJE
 ========================================================================
 Loto
 ========================================================================
-NEXT: 02, 03, 05, 11, 15, 36, 37
+NEXT: 02, x, 05, y, 15, z, 37
 CSV redova: 2,959
 Pregledano kombinacija: 15,380,937
 Hronoloških grupa za obuku: 78
@@ -2352,7 +2352,7 @@ Vreme obrade: 1.74 minuta
 ========================================================================
 Loto Plus
 ========================================================================
-NEXT: 11, 23, 24, 25, 30, 32, 34
+NEXT: 11, x, 24, y, 30, z, 34
 CSV redova: 1,715
 Pregledano kombinacija: 15,380,937
 Hronoloških grupa za obuku: 78
